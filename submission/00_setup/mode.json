@@ -1,0 +1,21 @@
+{
+  "members": [
+    "thien"
+  ],
+  "assignments": {
+    "thien": "B2-mid"
+  },
+  "self": "thien",
+  "slice": "B2-mid",
+  "degrade": [],
+  "current_slice": "B2-mid",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": [
+    "adasind_060000.jpg:1",
+    "adasind_060000.jpg:2",
+    "adasind_060000.jpg:3",
+    "adasind_060000.jpg:4",
+    "adasind_060000.jpg:5"
+  ]
+}

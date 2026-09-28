@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,30,Phương tiện lưu thông cùng/ngược chiều ở tốc độ cao,Đánh giá năng lực phát hiện phương tiện cơ bản ở khoảng cách trung bình và xa
+front,hard,25,Chói nắng ngược sáng bụi nước mưa vật cắt đầu xe gần,Kiểm tra độ chịu lỗi khi độ tương phản suy giảm mạnh và vật thể nén ở đáy ảnh
+rear,normal,25,Xe bám đuôi và người đi bộ phía sau khi lùi,Đảm bảo an toàn cơ bản cho thao tác lùi xe và đỗ xe trong bãi
+rear,hard,25,Vật thể thấp điểm mù cản sau đèn lùi chói ban đêm,Nguy cơ cao va chạm với chướng ngại vật thấp (trụ bê tông trẻ em) dưới tầm nhìn
+left,normal,20,Phương tiện di chuyển song song ở làn bên cạnh,Quan sát luồng giao thông sườn xe khi duy trì làn đường
+left,hard,25,Vùng seam góc chéo trước/sau méo cực đại dưới gương chiếu hậu,Thẩm định hiện tượng cắt mép đối tượng tại vùng chồng lấn giữa 2 camera
+right,normal,25,Xe hai bánh và người đi bộ bên mép đường lề phải,Đặc thù giao thông đô thị xe máy thường len lỏi vượt phải ở cự ly hẹp
+right,hard,25,Vùng seam góc chéo mép đường hè phố vật thể bị cắt ngang,Đánh giá rủi ro va quẹt khi xe rẽ phải hoặc cặp lề sát vỉa hè

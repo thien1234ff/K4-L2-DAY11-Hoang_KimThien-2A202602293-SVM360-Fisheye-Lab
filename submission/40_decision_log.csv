@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+1,2026-09-28,Phân biệt vạch chia ô đỗ parking_line và vạch dẫn lối trong bãi đỗ,Chỉ gán nhãn parking_line cho các đoạn sơn trực tiếp phân chia ô đỗ riêng lẻ; không gán mép đường hay vỉa hè,Vạch chỉ luồng và gờ vỉa hè không mang ngữ nghĩa ranh giới ô đỗ theo docs/11-parking-lines-vi.md,resolved
+2,2026-09-28,Xử lý người điều khiển phương tiện hai bánh (Rider),Gộp toàn bộ người lái và xe máy/xe đạp thành 1 box Bike duy nhất theo R03,Tuân thủ nghiêm ngặt quy ước phân loại của bài lab nhằm đồng nhất ground truth,resolved
+3,2026-09-28,Xử lý box L1/L4 chồng lấn lên vùng ego_body ở đáy ảnh,Xóa/thu hẹp box để không bao trùm phần thân xe ego trong polygon ignore_region,Tránh vi phạm R09 (không vẽ box nằm ≥50% trong vùng ignore),resolved
+4,2026-09-28,Bất đồng đối tượng xe Car tại frame adasind_086220.jpg (L1),Escalate lên team guideline để xem xét bổ sung vào reference,Cả người gán nhãn và model YOLO26m đều phát hiện xe hợp lệ nhưng reference đang thiếu,escalated
